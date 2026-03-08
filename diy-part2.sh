@@ -49,9 +49,6 @@ git clone --depth=1 https://github.com/Haris131/helmiwrt-packages package/commun
 
 # USB
 git clone --depth=1 https://github.com/xuxin1955/luci-app-usb-gadget package/usb-gadget
-# packages
-sed -i 's|src-git packages https://github.com/immortalwrt/packages\.git|src-git packages https://github.com/openwrt/packages|' feeds.conf.default
-
 
 #temp
 git clone https://github.com/lkiuyu/luci-app-cpu-perf package/luci-app-cpu-perf
