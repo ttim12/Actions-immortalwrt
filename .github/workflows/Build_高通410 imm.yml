@@ -28,7 +28,6 @@ on:
           - wf2
           - sp970v11
           - sp970v10
-          - hlk7628n
         default: jz02v10
         required: true
 
